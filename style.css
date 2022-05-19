@@ -1,0 +1,101 @@
+.container {
+    background-color: aqua;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+}
+h1 {
+    background-color: #ba042d;
+    padding: 10px;
+    margin-left: 40%;
+    margin-right: 40%;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Times New Roman';
+}
+img {
+    border-radius: 20%;
+    display: block;
+    margin-left: 40%;
+    margin-right: 40%;
+    width: 20%;
+}
+
+.btn1 {
+    background-color: white;
+    border: 3px solid;
+    border-color: rgb(214, 161, 95);
+    width: 200px;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 40%;
+    margin-right: 40%;
+    text-align: center;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+.btn2 {
+    background-color: #ba042d;
+    border: 1px solid #ba042d;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 30px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    width: 300px;
+    transform: translateX(auto);
+    transition: 0.5s all;
+}
+.btn2:hover {
+    box-shadow: 2px 2px 4px 4px hsl(354, 83%, 71%);
+    transform: translateX(1px);
+        }
+.btn3 {
+    background-color: white;
+    border: 1px solid red;
+    align-items: center;
+    display: block;
+    margin-top: 10px;
+    margin-left: 40%;
+    margin-right: 40%;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    width: 300px;
+    transform: translateX(auto);
+    transition: 0.5s all;
+}
+.btn3:hover {
+    box-shadow: 2px 2px 4px 4px hsl(60, 87%, 61%);
+    transform: translateX(1px);
+        }
+footer {
+    border: 2px solid black;
+    background-color:#ba042d;
+    margin-top: 10px;
+    height: 100px;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+footer .youtube {
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+footer .Netflix {
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+footer .Instagram {
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
